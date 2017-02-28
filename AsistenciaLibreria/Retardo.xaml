@@ -1,0 +1,46 @@
+﻿<Window
+    x:Class="AsistenciaLibreria.Retardo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Retardo"
+    Width="523"
+    Height="300"
+    Loaded="Window_Loaded"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock
+            Margin="34,37,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text="El registro de tu hora de entrada es mayor a las 9:15 a.m. ¿Deseas realizar alguna observación al respecto?"
+            TextAlignment="Center"
+            TextWrapping="Wrap" />
+        <TextBox
+            x:Name="TxtObservacion"
+            Width="455"
+            Height="112"
+            Margin="34,95,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            TextWrapping="Wrap" />
+        <Button
+            x:Name="BtnCancelar"
+            Width="75"
+            Margin="414,224,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="BtnCancelar_Click"
+            Content="Cancelar"
+            IsCancel="True" />
+        <Button
+            x:Name="BtnAceptar"
+            Width="75"
+            Margin="334,224,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="BtnAceptar_Click"
+            Content="Aceptar"
+            IsDefault="True" />
+    </Grid>
+</Window>

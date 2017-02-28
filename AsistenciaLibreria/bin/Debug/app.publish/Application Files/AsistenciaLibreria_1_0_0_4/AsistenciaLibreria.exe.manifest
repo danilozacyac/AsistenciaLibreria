@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AsistenciaLibreria.exe" version="1.0.0.4" publicKeyToken="5e32fd72d0c8a298" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="1484963644_Attendee_Badge.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AsistenciaLibreria" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AsistenciaLibreria.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AsistenciaLibreria.exe" size="233920">
+      <assemblyIdentity name="AsistenciaLibreria" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Ywz+kpeEzlMm3jewTn6J0L0oOcm74dhhIN3vk0wWYaw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScjnUtilities.dll" size="25600">
+      <assemblyIdentity name="ScjnUtilities" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DGMSsySP9KlBn+UVYoqnhXdqn/VhmTr2J6gm51fr14s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1484963644_Attendee_Badge.ico" size="102746">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>S6MyXrzjGCuLxi718hvD1zIQigCBbssVmsWurJoVnZo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AsistenciaLibreria.exe.config" size="581">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p9zBrMuSQj0vhsUurNDiehuIC3nNxrXPi2x0Uy4MyuA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DOM_COORD\laVega" issuerKeyHash="ae3d0969f05ab70ffc2ca77561846898536b8b1d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8C93lb5aAbMBjaoMsOVk9knJauZ9lBMT136r5zZZ3fA=</DigestValue></Reference></SignedInfo><SignatureValue>lpITLEDz4sTBPgMDeu2FVlBSK1qj2uieM96Bhq+XVYbC230k3ME1FfnqaZZR9JIyxvF0R6+04h31OTad+Z0q1c2jfEnxH/6B6CCdnOKu8kLkcuYBYUKzSHg7MkXoeXFyFqFdeYPQxSiy/hjpKkbxCi63oauBi137rPyOjMb4Jx0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4PvmKbtGW6hGg00hE66PeT7ahjktZ6xTRdn8q2zAif+iGZgCL0UAMc0gtKS9GFD+MInqx/F2OhR+1ulV4KpwcsrOyVaX76hYA+GMl+x82B9Nl1UI0kkE9h2bMTG+QrhrFjwfKj/HqZHA6xpJYlHUfXZaDjXkLpmcgK1bqfOAhB8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f0dd5936e7ab7ed71313947de66ac949f664e5b00caa8d01b3015abe95772ff0" Description="" Url=""><as:assemblyIdentity name="AsistenciaLibreria.exe" version="1.0.0.4" publicKeyToken="5e32fd72d0c8a298" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DOM_COORD\laVega</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>f0mVFyyCEDpeK0dlNjmQwWK+RZ444uGdoYjquC/tzyw=</DigestValue></Reference></SignedInfo><SignatureValue>DbckfrKSSgKzK75bcMykujrjeu/OhT75evg0JtZzbrsI7SFiR9UrY3fnNc9ziELqPpO9yb55gzfUcxuf07KU2dpboq8baqD5uEd/Ydqza36ERPdTNB2OdkRHpOebbjCVU+E85OKibYm2iBWsseABnO6i+BpC/9+nPfLhxPL4K3g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4PvmKbtGW6hGg00hE66PeT7ahjktZ6xTRdn8q2zAif+iGZgCL0UAMc0gtKS9GFD+MInqx/F2OhR+1ulV4KpwcsrOyVaX76hYA+GMl+x82B9Nl1UI0kkE9h2bMTG+QrhrFjwfKj/HqZHA6xpJYlHUfXZaDjXkLpmcgK1bqfOAhB8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQYBXM3itGNrpO37N1jOalZTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAARABPAE0AXwBDAE8ATwBSAEQAXABsAGEAVgBlAGcAYTAeFw0xNzAxMjAxOTU1MDdaFw0xODAxMjEwMTU1MDdaMCsxKTAnBgNVBAMeIABEAE8ATQBfAEMATwBPAFIARABcAGwAYQBWAGUAZwBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDg++Ypu0ZbqEaDTSETro95PtqGOS1nrFNF2fyrbMCJ/6IZmAIvRQAxzSC0pL0YUP4wierH8XY6FH7W6VXgqnByys7JVpfvqFgD4YyX7HzYH02XVQjSSQT2HZsxMb5CuGsWPB8qP8epkcDrGkliUdR9dloONeQumZyArVup84CEHwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABvar+HUI4UMNhfWM1eOiMubKm1KXLjtfylOHxZkYBGmXhVvRGzio3CXAL4PdyBu53vOhVn7pr8sLjoJBLppu/RspAFJgB97OVfn/TkJdVsUEMGUsKIF9SogWs5pw9wowPZ5cbRBfmQBAlyo4WPdfbM2UquKRo7gKYhTd4ZiP9Ns</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
